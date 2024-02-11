@@ -25,7 +25,7 @@ func encryptCmd() *cobra.Command {
 
 	cmd := &cobra.Command{
 		Use:   "encrypt",
-		Short: "convert the normal file into encrypted file",
+		Short: "Convert the normal file into encrypted file",
 		Run:   encryptFile,
 	}
 
@@ -42,7 +42,7 @@ func decryptCmd() *cobra.Command {
 
 	cmd := &cobra.Command{
 		Use:   "decrypt",
-		Short: "convert the encrypted file into normal file",
+		Short: "Convert the encrypted file into normal file",
 		Run:   decryptFile,
 	}
 
